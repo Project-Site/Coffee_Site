@@ -1,3 +1,4 @@
+
 var app = angular.module('app',['ui.router'])
 app.config(function($stateProvider, $urlRouterProvider){
     $urlRouterProvider.otherwise('/')
@@ -18,9 +19,102 @@ app.config(function($stateProvider, $urlRouterProvider){
         url: '/menu_page_2',
         templateUrl: 'app/Next-Manu/index.html'
     })
-    .state('ht_1',{
-        url: '/ht_1',
+     // Start How To Coffee 
+     .state('ht_1',{
+        url: '/ht_1/สูตรกาแฟ_NICARAGUA_SWEET_AND_CRUNCHY',
         templateUrl: 'app/How-to-menu/ht_1.html'
+    })
+    .state('ht_2',{
+        url: '/ht_2/FIZZY_INDIA_-_สูตรกาแฟอินเดีย',
+        templateUrl: 'app/How-to-menu/ht_2.html'
+    })
+    .state('ht_3',{
+        url: '/ht_3/สูตรกาแฟ_VARIATIONS_PARIS_PRALINE_CREAMY_INDULGENCE',
+        templateUrl: 'app/How-to-menu/ht_3.html'
+    })
+    .state('ht_4',{
+        url: '/ht_4/สูตรกาแฟ_VARIATION_PARIS_MACARON_ALMOND_MILK_RECIPE',
+        templateUrl: 'app/How-to-menu/ht_4.html'
+    })
+    .state('ht_5',{
+        url: '/ht_5/สูตรกาแฟ_VARIATIONS_PARIS_PRALINE_INDULGENCE',
+        templateUrl: 'app/How-to-menu/ht_5.html'
+    })
+    .state('ht_6',{
+        url: '/ht_6/สูตรกาแฟ_PARIS_BLACK_CHOCOLATE_MACCHIATO',
+        templateUrl: 'app/How-to-menu/ht_6.html'
+    })
+    .state('ht_7',{
+        url: '/ht_7/สูตรกาแฟ_INDONESIA_DISCOVERY',
+        templateUrl: 'app/How-to-menu/ht_7.html'
+    })
+    .state('ht_8',{
+        url: '/ht_8/สูตรกาแฟ_COLOMBIAN_PASSIOCCINO',
+        templateUrl: 'app/How-to-menu/ht_8.html'
+    })
+    .state('ht_9',{
+        url: '/ht_9/สูตรกาแฟเย็น_CAFFE_ALLA_SALENTINA',
+        templateUrl: 'app/How-to-menu/ht_9.html'
+    })
+    .state('ht_10',{
+        url: '/ht_10/สูตรกาแฟเย็น_CAFFE_SHAKERATO',
+        templateUrl: 'app/How-to-menu/ht_10.html'
+    })
+    .state('ht_11',{
+        url: '/ht_11/THYME_AND_GRAPEFRUIT_ETHIOPIA JAMMING_-_กาแฟเอธิโอเปียกับใบไทม์และองุ่น',
+        templateUrl: 'app/How-to-menu/ht_11.html'
+    })
+    .state('ht_12',{
+        url: '/ht_12/ลาเต้_-_CAFFE_LATTE',
+        templateUrl: 'app/How-to-menu/ht_12.html'
+    })
+    .state('ht_13',{
+        url: '/ht_13/เอสเพรสโซ่_มัคคิอาโต_-_ESPRESSO_MACCHIATO',
+        templateUrl: 'app/How-to-menu/ht_13.html'
+    })
+    .state('ht_14',{
+        url: '/ht_14/สูตรกาแฟ_HONEY_ALMOND_MILK_COFFEE',
+        templateUrl: 'app/How-to-menu/ht_14.html'
+    })
+    .state('ht_15',{
+        url: '/ht_15/สูตรเมนู_GRAPEFRUIT_&_THYME_COFFEE_COCKTAIL',
+        templateUrl: 'app/How-to-menu/ht_15.html'
+    })
+    .state('ht_16',{
+        url: '/ht_16/อเมริกาโน่_-_AMERICANO_BY_NESPRESSO',
+        templateUrl: 'app/How-to-menu/ht_16.html'
+    })
+    .state('ht_17',{
+        url: '/ht_17/',
+        templateUrl: 'app/How-to-menu/ht_17.html'
+    })
+    .state('ht_18',{
+        url: '/ht_18/มอคค่า_ลาเต้_-_MOCCA_LATTE',
+        templateUrl: 'app/How-to-menu/ht_18.html'
+    })
+    .state('ht_19',{
+        url: '/ht_19/สูตรกาแฟ_CAPPUCCINO_CREME_BRULEE',
+        templateUrl: 'app/How-to-menu/ht_19.html'
+    })
+    .state('ht_20',{
+        url: '/ht_20/สูตรกาแฟ_ORANGETTE',
+        templateUrl: 'app/How-to-menu/ht_20.html'
+    })
+    .state('ht_21',{
+        url: '/ht_21/เมนูสูตรลิมิเต็ด_LIEGEOIS_COFFEE_BARISTA',
+        templateUrl: 'app/How-to-menu/ht_21.html'
+    })
+    .state('ht_22',{
+        url: '/ht_22/เมนูกาแฟสูตรชะเอมอันหอมหวาน',
+        templateUrl: 'app/How-to-menu/ht_22.html'
+    })
+    .state('ht_23',{
+        url: '/ht_23/สูตรกาแฟ_MACHA_ICED_COFFEE',
+        templateUrl: 'app/How-to-menu/ht_23.html'
+    })
+    .state('ht_24',{
+        url: '/ht_24/สูตรกาแฟ_INTENSO_ON_ICE',
+        templateUrl: 'app/How-to-menu/ht_24.html'
     })
     // Start blog content 1-24
     .state('page1', {

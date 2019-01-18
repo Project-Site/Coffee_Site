@@ -207,6 +207,7 @@ a.readMore{
   padding: 35px 0 25px;
   margin-top: -50px;
 }
+}
 .content p {
   line-height: 2rem;
   color:#666;
@@ -287,4 +288,20 @@ a.readMore{
 }
 div .header-2 h2{
   text-align: center;
+  padding: 10px 0 10px
+}
+.how-to{
+  font-family:  thaifont,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 1.3567rem;
+  padding: 35px 0 25px;
+  margin-top: 20px;
+  line-height:2.2rem
+}
+.how-to img {
+  height:500px;
+  width:600px;
+}
+.ht-menu{
+  font-family: thaifont;
+  margin: 50px 0 0;
 }
