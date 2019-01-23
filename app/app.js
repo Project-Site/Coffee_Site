@@ -19,6 +19,10 @@ app.config(function($stateProvider, $urlRouterProvider){
         url: '/menu_page_2',
         templateUrl: 'app/Next-Manu/index.html'
     })
+    .state('aboutme',{
+        url:'/aboutme',
+        templateUrl:'app/Aboutme/index.html'
+    })
      // Start How To Coffee 
      .state('ht_1',{
         url: '/ht_1/สูตรกาแฟ_NICARAGUA_SWEET_AND_CRUNCHY',
