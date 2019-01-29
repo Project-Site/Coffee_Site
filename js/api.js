@@ -29,7 +29,7 @@ function onPlayerStateChange(e) {
 function mainVisualResize() {
     var e = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
         t = document.getElementById("mvclip");
-    1920 > e || (t.style.width = e + "px", t.style.heigth = Math.floor(e / 16 * 9) + "px")
+    1920 > e || (t.style.width = e + "px", t.style.height = Math.floor(e / 16 * 9) + "px")
 }
 var yplayer, ytag = document.createElement("script");
 ytag.src = "https://www.youtube.com/iframe_api";
